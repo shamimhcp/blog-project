@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 11, 2018 at 11:04 AM
+-- Generation Time: Sep 11, 2018 at 11:24 AM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.7
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `e-commerce`
+-- Database: `blog-laravel`
 --
 
 -- --------------------------------------------------------
@@ -45,7 +45,17 @@ INSERT INTO `categories` (`id`, `category_name`, `category_description`, `public
 (10, 'Music', 'asfasdf', 1, '2018-09-11 01:54:15', '2018-09-11 01:54:15'),
 (11, 'International', 'asdfasdf', 0, '2018-09-11 01:54:19', '2018-09-11 01:54:19'),
 (12, 'Cricket', 'love cricket?', 1, '2018-09-11 02:09:17', '2018-09-11 02:09:17'),
-(13, 'Education', 'Education for all.', 0, '2018-09-11 02:09:28', '2018-09-11 02:09:28');
+(13, 'Education', 'Education for all.', 0, '2018-09-11 02:09:28', '2018-09-11 02:09:28'),
+(14, 'Economy', 'this is our economy', 1, '2018-09-11 03:19:25', '2018-09-11 03:19:25'),
+(15, 'Entertainment', 'be entertained', 1, '2018-09-11 03:19:47', '2018-09-11 03:19:47'),
+(16, 'Lifestyle', 'Lifestyle of everybody', 1, '2018-09-11 03:20:13', '2018-09-11 03:20:13'),
+(17, 'Science', 'About science', 0, '2018-09-11 03:20:28', '2018-09-11 03:20:28'),
+(18, 'Technology', 'Technology is good', 1, '2018-09-11 03:20:50', '2018-09-11 03:20:50'),
+(19, 'Corporate', 'be corporate', 1, '2018-09-11 03:21:14', '2018-09-11 03:21:14'),
+(20, 'Youth', 'We all live in yough', 1, '2018-09-11 03:21:29', '2018-09-11 03:21:29'),
+(21, 'Other', 'just other', 1, '2018-09-11 03:21:41', '2018-09-11 03:21:41'),
+(22, 'Mixed', 'mixed topics', 1, '2018-09-11 03:21:54', '2018-09-11 03:21:54'),
+(23, 'Love', 'Everybody loves', 1, '2018-09-11 03:22:15', '2018-09-11 03:22:15');
 
 -- --------------------------------------------------------
 
@@ -102,7 +112,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'SHAMIM HOSSAIN', 'shamimhcp@gmail.com', NULL, '$2y$10$LB9/8q6KA4W4xIAonjGUnehMmm5DVOzUBfXTAkMJj61RqQBMfZQ5G', 'TQKTWdVx9ASkOWt62FZDo8IwoYykjDfM7SkAfzN0DXbYDMDMdNWqenzuLZ5n', '2018-09-10 04:55:39', '2018-09-10 04:55:39');
+(1, 'SHAMIM HOSSAIN', 'shamimhcp@gmail.com', NULL, '$2y$10$LB9/8q6KA4W4xIAonjGUnehMmm5DVOzUBfXTAkMJj61RqQBMfZQ5G', 'usR8KLKCYQEQOkXYEdAbrs4yAqay2Q7yywZIaKDO9TGRLKjwQXej5NujiY3F', '2018-09-10 04:55:39', '2018-09-10 04:55:39');
 
 --
 -- Indexes for dumped tables
@@ -141,7 +151,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `migrations`

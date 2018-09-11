@@ -54,7 +54,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{route('home')}}">E-Commerce Project</a>
+            <a class="navbar-brand" href="{{route('home')}}">Blog Project</a>
         </div>
         <!-- /.navbar-header -->
 
