@@ -2,12 +2,12 @@
 
 @section('title')
     Add Category | E-Commerce | Project
-    @endsection
+@endsection
 
 @section('body')
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Add Category</h1>
+            <h1 class="page-header">Edit Category</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -16,7 +16,7 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Fill up the form below:
+                    Edit category info from below:
                 </div>
                 <div class="panel-body">
                     <div class="row">
@@ -44,7 +44,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <button type="submit" name="btn" class="btn btn-success">Submit</button>
+                                <button type="submit" name="btn" class="btn btn-success">Update</button>
                                 <button type="reset" name="btn" class="btn btn-default">Reset</button>
                             </form>
                         </div>
@@ -59,4 +59,4 @@
         <!-- /.col-lg-12 -->
     </div>
     <!-- /.row -->
-    @endsection
+@endsection

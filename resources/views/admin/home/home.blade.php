@@ -1,7 +1,7 @@
 @extends('admin.master')
 
 @section('title')
-    Home - SB Admin 2 - Bootstrap Admin Theme
+    Home | E-Commerce | Project
     @endsection
 
 @section('body')

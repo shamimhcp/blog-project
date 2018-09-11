@@ -1,7 +1,7 @@
 @extends('front.master')
 
 @section('title')
-    Home - Modern Business - Start Bootstrap Template
+    Home | E-Commerce | Project
     @endsection
 
 @section('slider')
